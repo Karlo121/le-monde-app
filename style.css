@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background-color: #f2f2f2;
+}
+.outerWrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.headerWrapper {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  height: 130px;
+  box-shadow: 0 8px 6px -8px black;
+  position: relative;
+  z-index: 9999;
+}
+.headerText {
+  font-size: 30px;
+  padding: 20px;
+}
+.headerWrapper hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #0077cc;
+}
+.headerLinks {
+  text-align: left;
+  width: 57%;
+  margin: 0 auto;
+}
+.headerLinks a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin-right: 30px;
+}
+.headerWrapper h1 {
+  background-color: white;
+}
+
+.mainWrapper {
+  width: 55%;
+  margin: 0 auto;
+  background-color: white;
+  height: 100vh;
+  padding-top: 20px;
+}
+.mainWrapper a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+.mainWrapper hr {
+  display: block;
+  width: 90%;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: blue;
+}
+
+.articleWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.article {
+  text-align: center;
+  padding: 10px;
+  max-width: 300px;
+}
+.articleCategory {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.article img {
+  width: 200px;
+}
+.postWrapper {
+  margin: 0 auto;
+  margin-top: 30px;
+  max-height: 2000px;
+  width: 40%;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.postCategory {
+  color: grey;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.postHeader {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 24px;
+}
+.postImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.postWrapper hr {
+  display: block;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: black;
+}
+
+.postWrapper p {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.outerPostWrapper {
+  padding: 20px;
+}
+
+.imageCaption {
+  color: lightgray;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  max-width: 100%;
+  height: 100px;
+  background-color: #00242e;
+  padding: 50px;
+}
+
+.footer hr {
+  display: block;
+  width: 55%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: white;
+}
+
+.footer p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}

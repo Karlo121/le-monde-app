@@ -57,7 +57,6 @@ body {
   width: 55%;
   margin: 0 auto;
   background-color: white;
-  height: 100vh;
   padding-top: 20px;
 }
 .mainWrapper a {
@@ -100,11 +99,11 @@ body {
 .postWrapper {
   margin: 0 auto;
   margin-top: 30px;
-  max-height: 2000px;
   width: 40%;
   background-color: white;
   padding: 10px;
   margin-bottom: 30px;
+  height: 1000px;
 }
 .postCategory {
   color: grey;
@@ -170,4 +169,46 @@ body {
   color: white;
   font-size: 30px;
   text-align: center;
+}
+.formWrapper {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 70%;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+  height: 600px;
+}
+
+.formItem {
+  text-align: center;
+  padding: 15px;
+}
+
+.formItem input {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid black;
+  width: 50%;
+  height: 30px;
+}
+.formItem textarea {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid black;
+  width: 80%;
+  height: 200px;
+}
+.formItem button {
+  width: 120px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 14px;
+}
+.formItem button:hover {
+  background-color: lightgreen;
+}
+
+.formField {
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
 }

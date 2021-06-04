@@ -55,10 +55,12 @@ body {
 
 .mainWrapper {
   width: 55%;
+  height: 1000px;
   margin: 0 auto;
   background-color: white;
   padding-top: 20px;
 }
+
 .mainWrapper a {
   text-decoration: none;
   font-size: 18px;
@@ -78,6 +80,7 @@ body {
 
 .articleWrapper {
   width: 100%;
+  height: 260px;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -87,14 +90,16 @@ body {
   text-align: center;
   padding: 10px;
   max-width: 300px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+
 .articleCategory {
   font-size: 25px;
   padding: 10px;
 }
 
 .article img {
-  width: 200px;
+  width: 250px;
 }
 .postWrapper {
   margin: 0 auto;
@@ -103,7 +108,9 @@ body {
   background-color: white;
   padding: 10px;
   margin-bottom: 30px;
-  height: 1000px;
+}
+.postWrapper img {
+  width: 100%;
 }
 .postCategory {
   color: grey;
@@ -211,4 +218,11 @@ body {
   border-radius: 10px;
   width: 100%;
   margin: 0 auto;
+}
+
+.adminWrap {
+  border: 1px solid red;
+  width: 55%;
+  margin: 0 auto;
+  background-color: white;
 }

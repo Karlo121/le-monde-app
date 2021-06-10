@@ -15,7 +15,7 @@
 <body>
   <div class="outerWrapper">
     <div class="headerWrapper">
-      <h1 class="headerText">Le Monde</h1>
+      <img src="images/logo.png" alt="logo">
       <hr />
       <div class="headerLinks">
         <a href="index.php">Home</a>

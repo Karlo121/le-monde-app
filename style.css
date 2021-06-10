@@ -9,7 +9,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 body {
-  background-color: #f2f2f2;
+  background-color: rgb(245, 246, 248);
 }
 .outerWrapper {
   width: 100%;
@@ -19,7 +19,7 @@ body {
   width: 100%;
   text-align: center;
   background-color: white;
-  height: 130px;
+  height: 180px;
   box-shadow: 0 8px 6px -8px black;
   position: relative;
   z-index: 9999;
@@ -34,9 +34,9 @@ body {
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-  border-color: #0077cc;
+  border: none;
+  height: 6px;
+  background-color: rgb(2, 107, 156);
 }
 .headerLinks {
   text-align: left;
@@ -44,10 +44,12 @@ body {
   margin: 0 auto;
 }
 .headerLinks a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   font-size: 20px;
   color: black;
   margin-right: 30px;
+  font-weight: 100;
 }
 .headerWrapper h1 {
   background-color: white;
@@ -55,7 +57,7 @@ body {
 
 .mainWrapper {
   width: 55%;
-  height: 1000px;
+  height: 1100px;
   margin: 0 auto;
   background-color: white;
   padding-top: 20px;
@@ -70,12 +72,13 @@ body {
 .mainWrapper hr {
   display: block;
   width: 90%;
+  margin-top: 30px;
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
-  border-color: blue;
+  border-color: black;
 }
 
 .articleWrapper {
@@ -94,8 +97,9 @@ body {
 }
 
 .articleCategory {
-  font-size: 25px;
+  font-size: 27px;
   padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .article img {
@@ -136,7 +140,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
-  border-width: 1px;
+  border-width: 2;
   border-color: black;
 }
 
@@ -168,7 +172,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
-  border-width: 1px;
+  border-width: 2;
   border-color: white;
 }
 
@@ -194,20 +198,20 @@ body {
 
 .formItem input {
   background-color: rgb(247, 243, 243);
-  border: 1px solid black;
+  border: 2 solid black;
   width: 50%;
   height: 30px;
 }
 .formItem textarea {
   background-color: rgb(247, 243, 243);
-  border: 1px solid black;
+  border: 2 solid black;
   width: 80%;
   height: 200px;
 }
 .formItem button {
   width: 120px;
   height: 30px;
-  border: 1px solid black;
+  border: 2 solid black;
   border-radius: 14px;
 }
 .formItem button:hover {
@@ -221,7 +225,7 @@ body {
 }
 
 .adminWrap {
-  border: 1px solid red;
+  border: 2 solid red;
   width: 55%;
   margin: 0 auto;
   background-color: white;

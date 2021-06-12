@@ -188,7 +188,7 @@ body {
   background-color: white;
   padding: 10px;
   margin-bottom: 30px;
-  height: 600px;
+  height: 1000px;
 }
 
 .formItem {
@@ -229,4 +229,7 @@ body {
   width: 55%;
   margin: 0 auto;
   background-color: white;
+}
+.errorText {
+  color: red;
 }

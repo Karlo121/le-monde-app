@@ -15,5 +15,6 @@
 
   $result = mysqli_query($dbc, $query) or die('Error querying databese.'.mysqli_error($dbc))  ; 
 
-  mysqli_close($dbc); 
+  mysqli_close($dbc);
+  header("Location: http://localhost/pwa/le-monde-app/index.php"); 
 ?>

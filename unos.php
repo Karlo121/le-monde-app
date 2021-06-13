@@ -17,9 +17,11 @@
       <hr />
       <div class="headerLinks">
         <a href="index.php">Home</a>
-        <a href="https://www.w3schools.com/">Politique</a>
-        <a href="https://www.w3schools.com/">Sport</a>
-        <a href="https://www.w3schools.com/">Administracija</a>
+        <a href="kategorija.php?id=politika">Politique</a>
+        <a href="kategorija.php?id=sport">Sport</a>
+        <a href="kategorija.php?id=kultura">Kultutra</a>
+        <a href="prijava.php">Administracija</a>
+        <a href="unos.php">Novi Post</a>
       </div>
     </div>
   </div>
@@ -93,7 +95,7 @@ document.getElementById("slanje").onclick = function(event) {
   let poljeTitle = document.getElementById("title");
   let title = document.getElementById("title").value;
 
-  if (title.length < 5 || title.length > 30) {
+  if (title.length < 5 || title.length > 40) {
     slanjeForme = false;
     poljeTitle.style.border = "1px dashed red";
     document.getElementById("porukaTitle").innerHTML = "Naslov vjesti mora imati između 5 i 30 znakova!<br>";

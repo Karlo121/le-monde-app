@@ -63,6 +63,20 @@ body {
   padding-top: 20px;
 }
 
+.catWrapper {
+  width: 55%;
+  margin: 0 auto;
+  background-color: white;
+  padding-top: 20px;
+  flex-direction: row;
+}
+
+.catWrapper a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
 .mainWrapper a {
   text-decoration: none;
   font-size: 18px;
@@ -104,6 +118,7 @@ body {
 
 .article img {
   width: 250px;
+  height: 180px;
 }
 .postWrapper {
   margin: 0 auto;
@@ -198,17 +213,19 @@ body {
 
 .formItem input {
   background-color: rgb(247, 243, 243);
-  border: 2 solid black;
-  width: 50%;
+  border: 1px solid black;
+  width: 100%;
   height: 30px;
 }
 .formItem textarea {
   background-color: rgb(247, 243, 243);
+  border: 1px solid black;
   border: 2 solid black;
   width: 80%;
   height: 200px;
 }
 .formItem button {
+  border: 1px solid black;
   width: 120px;
   height: 30px;
   border: 2 solid black;
@@ -225,7 +242,6 @@ body {
 }
 
 .adminWrap {
-  border: 2 solid red;
   width: 55%;
   margin: 0 auto;
   background-color: white;

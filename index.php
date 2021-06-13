@@ -22,8 +22,9 @@
         <a href="kategorija.php?id=politika">Politique</a>
         <a href="kategorija.php?id=sport">Sport</a>
         <a href="kategorija.php?id=kultura">Kultutra</a>
-        <a href="administracija.php">Administracija</a>
+        <a href="prijava.php">Administracija</a>
         <a href="unos.php">Novi Post</a>
+        <a href="registracija.php">Registracija</a>
       </div>
     </div>
     <div class="mainWrapper">

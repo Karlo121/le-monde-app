@@ -22,12 +22,13 @@
         <a href="kategorija.php?id=politika">Politique</a>
         <a href="kategorija.php?id=sport">Sport</a>
         <a href="kategorija.php?id=kultura">Kultutra</a>
-        <a href="administracija.php">Administracija</a>
+        <a href="prijava.php">Administracija</a>
         <a href="unos.php">Novi Post</a>
       </div>
     </div>
-    <div class="mainWrapper">
-      <?php 
+    <div class="catWrapper">
+      <div class="articleWrapper">
+        <?php 
         $kategorija=$_GET['id'];
         $query = "SELECT * FROM clanak WHERE kategorija = '$kategorija'";
         $result = mysqli_query($dbc, $query);
@@ -46,6 +47,7 @@
           echo '</article>'; 
      }
       ?>
+      </div>
     </div>
     <div class="footer">
       <hr />
